@@ -1,0 +1,81 @@
+/* importing fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.introduction{
+    text-align: center;
+    /* this is a font family san sarif is a font style */
+    font-family: 'Roboto', sans-serif;    
+    color: #000000;
+
+}
+
+
+.userImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    margin-top: 10%;
+}
+
+
+.aboutMe{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.myName{
+    text-align: center;
+}
+
+.aboutMeParagraph{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.image-size{
+    height: 40px;
+}
+
+
+@media only screen and  (min-width:700px) {
+
+    /* above the mentioned value */
+
+
+    /* jab tag screen size 700px hai tab tak kuch mat kr */
+    .aboutMe{
+        margin-top: 5%;
+    }
+
+    .userImage{
+        margin-top: 5%;
+    }
+
+    body{
+        background-color: aqua;
+    }
+
+
+    
+}
+
+
+@media only screen and (max-width:750px){
+
+    /* below the mentioned */
+        body{
+            background-color: blueviolet;
+        }
+}
