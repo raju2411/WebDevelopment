@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #243A73,#F2EBE9);
+}
+
+.head1{
+    padding-top: 50px;
+
+    color: #F2EBE9;
+    text-align: center;
+    font-family: 'Gentium Plus', serif;
+    letter-spacing: 10px;
+}
+
+.form{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn{
+    margin-top: 40px;
+
+}
+
+
+
+.info-para{
+    text-align: center;
+    color: #3C2C3E;
+
+    letter-spacing: 3px;
+    color: #f2f2f2;
+    margin-top: 20px;
+}
+
+.name1{
+    margin-right: 10px;
+    font-family: 'Gentium Plus', serif;
+    font-weight: 400;
+    padding: 8px;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.5s;
+
+}
+
+.name2{
+    margin-left: 10px;
+    font-family: 'Gentium Plus', serif;
+    font-weight: 400;
+    padding: 8px;
+    border-style: none;
+    outline: none;
+    border-radius: 5px;
+    transition: box-shadow 0.5s;
+   
+}
+
+.name1:hover{
+    box-shadow: 5px 5px 5px #333;
+}
+
+.name2:hover{
+    box-shadow: 5px 5px 5px #333;
+}
+
+.play{
+    background-color: #D61C4E;
+    border-style: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    color:#f2f2f2;
+    transition: box-shadow 0.5s;
+
+}
+
+.play:hover{
+    box-shadow: 5px 5px 5px #333;
+}
+
+#result{
+    letter-spacing: 3px;
+}
+
+.info-dev{
+    background: linear-gradient(to right, #f32170,
+    #ff6b08, #cf23cf, #eedd44);
+   -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
